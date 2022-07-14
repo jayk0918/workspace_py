@@ -15,4 +15,5 @@ b2 = False
 
 print(b1 + 10)
 print(b2 + 10)
-print (True + True)
+print(True + True)
+
