@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import uuid
 
 def imgDownload(sub_page_url):
-    sub_page_url = 'https://movie.naver.com/movie/bi/mi/basic.naver?code=81888'
+    #sub_page_url = 'https://movie.naver.com/movie/bi/mi/basic.naver?code=81888'
     response = requests.get(sub_page_url)
     html = response.text
     #print(html)
